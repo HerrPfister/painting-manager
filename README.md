@@ -6,13 +6,15 @@
 ************************************
 
 >How to compile
-	Included in the package is a makefile:
-	To compile the program type the command, make, in the bash.
-	To execute the program type the command, ./paintingmanager, in the bash.
-	To remove the binary file type the command, make clean, in the bash.
+		Included in the package is a makefile:
+		To compile the program type the command, make, in the bash.
+		To execute the program type the command, ./paintingmanager, in the bash.
+		To remove the binary file type the command, make clean, in the bash.
 
 >How to use the program
-	Valid commands:
+
+		Valid commands:
+
 		a (add artist) → The program will ask for the user to input the name of the artist, first and last. If the artist is not currently in
 		the list of artists, or the list is empty, a new artist node will created with the given name. Otherwise, the program will output
 		an error and return to the main menu.
@@ -51,13 +53,14 @@
 		the total number of DIFFERENT artists that are stored in the datastructure.q (quit) -> Exits the program.
 
 >Misc
-	When entering a new painting, if anything is entered into the width and height fields, other than a number, the program will
-	output an error and will prompt the user to try again.
 
-	When entering a command in the main menu, if anything is entered, other than one of the commands listed above, the
-	program will output an error and will prompt the user to try again.
+		When entering a new painting, if anything is entered into the width and height fields, other than a number, the program will
+		output an error and will prompt the user to try again.
 
-	Some of the files listed are ArtistList, PaintingList, Artist, and Painting. Each is its own class, and the two lists are Linked
-	Lists that hold their respected node types (i.e. ArtistList → Artist and PaintingList → Painting).
+		When entering a command in the main menu, if anything is entered, other than one of the commands listed above, the
+		program will output an error and will prompt the user to try again.
 
-	Landscape, Portrait and Stilllifes are all derived classes of painting and have their own copy constructors and destructors.
+		Some of the files listed are ArtistList, PaintingList, Artist, and Painting. Each is its own class, and the two lists are Linked
+		Lists that hold their respected node types (i.e. ArtistList → Artist and PaintingList → Painting).
+
+		Landscape, Portrait and Stilllifes are all derived classes of painting and have their own copy constructors and destructors.
