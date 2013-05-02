@@ -6,9 +6,11 @@
 ************************************
 
 >How to compile
-		Included in the package is a makefile:
+
 		To compile the program type the command, make, in the bash.
+
 		To execute the program type the command, ./paintingmanager, in the bash.
+
 		To remove the binary file type the command, make clean, in the bash.
 
 >How to use the program
